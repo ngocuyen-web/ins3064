@@ -2,7 +2,7 @@
 session_start();
 
 /* connect to database check user*/
-$con=mysqli_connect('localhost','root');
+$con=mysqli_connect(hostname: 'localhost',username: 'root', password:'12345678');
 mysqli_select_db($con, 'LoginReg');
 
 /* create variables to store data */
